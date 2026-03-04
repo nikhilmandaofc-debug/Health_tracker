@@ -1,0 +1,40 @@
+
+cd frontend
+npm install
+npm install react-router-dom
+npm install framer-motion
+npm install lucide-react
+npm install recharts
+
+
+npm run dev
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+npm install tailwindcss @tailwindcss/vite
+
+npm install framer-motion lucide-react
+npm install recharts
+npm install framer-motion recharts
+
+
+to run backend 
+cd backend
+uvicorn app.main:app --reload
+
+to check sqlite db files
+sqlite3 triage.db
+.exit
+
+cd backend
+python -m app.seed_users
+
+cd frontend
+npm run dev
+
+
+pip install openai python-dotenv
+
+
+
+6. AI Hospital Command Center AI Patient Chat Assistant Smart Doctor Assignment (AI Load Balancer)
